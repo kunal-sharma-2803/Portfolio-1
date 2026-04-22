@@ -1,16 +1,91 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built using React and Vite. This project showcases my work, skills, and projects in a modern, responsive interface.
 
-Currently, two official plugins are available:
+## 🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow these steps to run the project locally on your machine.
 
-## React Compiler
+### 1. Clone the repository
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+```
 
-## Expanding the ESLint configuration
+### 2. Install dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+### 3. Setup environment variables
+
+Create a `.env` file in the root directory if it doesn’t already exist.
+
+The `.env` file already includes comments explaining what values need to be added. Update the variables accordingly.
+
+> Note: All environment variables must start with `VITE_`.
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The app will be available at:
+
+```
+http://localhost:5173
+```
+
+## 🏗️ Build for Production
+
+To create an optimized production build:
+
+```bash
+npm run build
+```
+
+## 🔍 Preview Production Build
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 🛠️ Tech Stack
+
+* React
+* Vite
+* JavaScript
+* CSS / Tailwind (if applicable — update if needed)
+
+## 📁 Project Structure
+
+```
+├── public/
+├── src/
+│   ├── Images/
+│   ├── assets/
+│   ├── components/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## 📌 Notes
+
+* Ensure Node.js is installed (recommended version: 16+)
+* Check the `.env` file comments carefully before running the project
+* No custom configuration or port changes have been made
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
