@@ -25,8 +25,6 @@ Create a `.env` file in the root directory if it doesn’t already exist.
 
 The `.env` file already includes comments explaining what values need to be added. Update the variables accordingly.
 
-> Note: All environment variables must start with `VITE_`.
-
 ### 4. Start the development server
 
 ```bash
@@ -60,7 +58,7 @@ npm run preview
 * React
 * Vite
 * JavaScript
-* CSS / Tailwind (if applicable — update if needed)
+* Tailwind 
 
 ## 📁 Project Structure
 
